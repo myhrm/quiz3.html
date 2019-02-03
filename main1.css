@@ -1,0 +1,23 @@
+nav{
+    background: #05a081;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    flex:1 1 0; /*sets an equal width for the nav and makes it responsive */
+    text-align: center;
+    position: relative;
+}
+nav ul li a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+nav a:hover{
+    color: white;
+    background: #007d65;
+    text-decoration: none;
+}
